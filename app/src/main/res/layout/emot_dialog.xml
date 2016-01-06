@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout 
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:weightSum="3">
+        <ImageButton
+	        android:id="@+id/btnSmille"
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:padding="10dp"
+	        android:src="@drawable/smile" />
+	
+	    <ImageButton
+	        android:id="@+id/btnSweat"
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:padding="10dp"
+	        android:src="@drawable/sweat" />
+	
+	    <ImageButton
+	        android:id="@+id/btnSurprise"
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:padding="10dp"
+	        android:src="@drawable/surprise" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:weightSum="3">
+	    <ImageButton
+	        android:id="@+id/btnSpook"
+	        android:layout_width="fill_parent"
+	        android:layout_height="wrap_content"
+	        android:padding="10dp"
+	        android:src="@drawable/spook" />
+	    
+	    <ImageButton
+	        android:id="@+id/btnShout"
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:padding="10dp"
+	        android:src="@drawable/shout" />
+	    
+	    <ImageButton
+	        android:id="@+id/btnFire"
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:padding="10dp"
+	        android:src="@drawable/fire" />
+	</LinearLayout>
+	
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:weightSum="3">
+	    <ImageButton
+	        android:id="@+id/btnMiao"
+	        android:layout_width="fill_parent"
+	        android:layout_height="wrap_content"
+	        android:padding="10dp"
+	        android:src="@drawable/miao" />
+	    
+	    <ImageButton
+	        android:id="@+id/btnLove"
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:padding="10dp"
+	        android:src="@drawable/love" />
+	    
+	    <ImageButton
+	        android:id="@+id/btnCool"
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:padding="10dp"
+	        android:src="@drawable/cool" />
+	</LinearLayout>
+
+	    
+
+</LinearLayout>
